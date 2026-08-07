@@ -20,7 +20,7 @@ A React web application for viewing, adding, deleting, filtering, and inspecting
 - Disabled Add Task button until the required text fields are completed
 - `localStorage` persistence so tasks survive a browser refresh
 - Responsive layout for desktop and smaller screens
-
+ 
 ## Technology used
 
 - React

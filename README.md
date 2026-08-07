@@ -61,40 +61,6 @@ task-manager/
 └── vite.config.js
 ```
 
-## Installation and running the project
-
-### 1. Open the project in VS Code
-
-Open the extracted `task-manager` folder in Visual Studio Code.
-
-### 2. Open a terminal
-
-In VS Code, select **Terminal → New Terminal**.
-
-### 3. Install dependencies
-
-```bash
-npm install
-```
-
-### 4. Start the development server
-
-```bash
-npm run dev
-```
-
-Open the local URL shown in the terminal, normally:
-
-```text
-http://localhost:5173
-```
-
-### 5. Create a production build
-
-```bash
-npm run build
-```
-
 ## How the required concepts are implemented
 
 ### Reducer
@@ -105,7 +71,7 @@ npm run build
 - `DELETE_TASK`
 - `SET_FILTER`
 
-The same file also contains the six CKP seed tasks and the initial `filter: 'all'` state.
+The same file also contains the six tasks and the initial `filter: 'all'` state.
 
 ### Context
 
@@ -130,7 +96,7 @@ The same file also contains the six CKP seed tasks and the initial `filter: 'all
 | `/tasks/:id` | Individual task detail page |
 | `/` | Redirects to `/tasks` |
 
-The Header and CKP footer remain visible across the application pages.
+The Header and footer remain visible across the application pages.
 
 ## Manual testing checklist
 
@@ -141,7 +107,6 @@ The Header and CKP footer remain visible across the application pages.
 5. Open a task and confirm all task fields appear on the detail page.
 6. Return to the list and delete a task.
 7. Visit `/tasks/99999` and confirm the **Task not found** message appears.
-8. Run `npm run build` and confirm the build completes successfully.
 
 ### Resetting the seed tasks during testing
 

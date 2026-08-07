@@ -123,7 +123,7 @@ Then refresh the page.
 ```bash
 git init
 git add .
-git commit -m "Complete CKP React task manager assignment"
+git commit -m "Complete React task manager assignment"
 git branch -M main
 git remote add origin https://github.com/ChowNUSISS/task-manager.git
 git push -u origin main

@@ -160,12 +160,10 @@ git init
 git add .
 git commit -m "Complete CKP React task manager assignment"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/task-manager.git
+git remote add origin https://github.com/ChowNUSISS/task-manager.git
 git push -u origin main
 ```
 
-Replace `YOUR-USERNAME` with the GitHub username used for the submission repository.
 
-## AI and external-source declaration
 
-ChatGPT was used to help interpret the assignment requirements, suggest the React component structure, assist with debugging, and review the code and interface. The project was further customised with CKP naming and course-related task content. No external source code was copied directly into this project.
+

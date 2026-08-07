@@ -1,6 +1,6 @@
-# CKP Task Manager
+# Task Manager CKP
 
-A React web application for viewing, adding, deleting, filtering, and inspecting tasks. I prepared this project for the **Module 2: Frontend Development (React Web)** assignment and customised the task content and interface with my **CKP** project label.
+A React web application for viewing, adding, deleting, filtering, and inspecting tasks. I prepared this project for the **Module 2: Frontend Development (React Web)** assignment.
 
 ![CKP Task Manager main page](screenshots/task-manager-main.png)
 
@@ -134,7 +134,7 @@ The Header and CKP footer remain visible across the application pages.
 
 ## Manual testing checklist
 
-1. Confirm the six CKP seed tasks appear on a fresh launch.
+1. Confirm the six tasks appear on a fresh launch.
 2. Select each status filter and verify the visible tasks change.
 3. Add a task and confirm the form resets.
 4. Reload the browser and confirm the new task remains.

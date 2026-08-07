@@ -60,6 +60,33 @@ task-manager/
 ├── README.md
 └── vite.config.js
 ```
+## Installation and running the project
+
+### 1. Open the project in VS Code
+
+Open the extracted `task-manager` folder in Visual Studio Code.
+
+### 2. Open a terminal
+
+In VS Code, select **Terminal → New Terminal**.
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal, normally:
+
+```text
+http://localhost:5173
+```
 
 ## How the required concepts are implemented
 

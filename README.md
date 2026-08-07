@@ -6,7 +6,7 @@ A React web application for viewing, adding, deleting, filtering, and inspecting
 
 ## Features
 
-- Displays six seeded tasks with title, status, and priority
+- Displays six tasks with title, status, and priority
 - Filters tasks by **All**, **To Do**, **In Progress**, and **Done**
 - Adds new tasks using a controlled React form
 - Deletes tasks directly from the task list

@@ -106,7 +106,6 @@ The Header and footer remain visible across the application pages.
 4. Reload the browser and confirm the new task remains.
 5. Open a task and confirm all task fields appear on the detail page.
 6. Return to the list and delete a task.
-7. Visit `/tasks/99999` and confirm the **Task not found** message appears.
 
 ### Resetting the seed tasks during testing
 
